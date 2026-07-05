@@ -1,4 +1,3 @@
-print("Problem 1: Combine two dictionaries")
 d1 = {'a': 100, 'b': 200, 'c': 300}
 d2 = {'a': 300, 'b': 200, 'd': 400}
 
@@ -13,7 +12,7 @@ print()
 
 
 
-print("Problem 2: Frequency of values in a dictionary")
+
 d = {'V': 10, 'VI': 10, 'VII': 40, 'VIII': 20, 'IX': 70, 'X': 80, 'XI': 40, 'XII': 20}
 
 freq = {}
@@ -28,7 +27,7 @@ print()
 
 
 
-print("Problem 3: Palindrome check function")
+
 def is_palindrome(s):
     return s == s[::-1]
 
@@ -38,7 +37,7 @@ print()
 
 
 
-print("Problem 4: Distinct elements from a list")
+
 def get_distinct(lst):
     distinct = []
     for item in lst:
@@ -51,7 +50,6 @@ print(get_distinct(sample_list))
 print()
 
 
-print("Problem 5: Count of distinct elements")
 def count_elements(lst):
     counts = {}
     for item in lst:
@@ -68,7 +66,7 @@ count_elements(sample_list2)
 print()
 
 
-print("Problem 6: Lambda - starts with substring")
+
 starts_with = lambda s, sub: s.startswith(sub)
 
 print(starts_with("Hello World", "Hello"))
